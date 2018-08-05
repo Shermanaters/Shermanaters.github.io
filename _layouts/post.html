@@ -1,18 +1,8 @@
 ---
 layout: default
 ---
-{%- include header.html -%}
+{% include post.html %}
 
-<!-- Main -->
-<div id="main">
-	<!-- Post -->
-	<article class="shade-two">
-	  <div class="container">
-			<header>
-				<h2>{{- page.title -}}</h2>
-				<p>{% if page.author %}{{ page.author }}, {% endif %}{{- page.date | date_to_long_string -}}</p>
-			</header>
-	    {{- content -}}
-	  </div>
-	</article>
-</div>
+{% if site.disqus and page.comments %}
+    {% include disqus.html %}
+{% endif %}
