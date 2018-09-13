@@ -5,4 +5,4 @@ date: 2015-08-18
 tags: haha
 ---
 
-asdfasdfasdfasdfasdf
+https://hexo.io/docs/deployment.html
