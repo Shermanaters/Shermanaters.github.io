@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1">
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+  <meta name="description" content="Web Hacking 101 Reading Note 001"/>
+
+
+
+
+  <meta name="keywords" content="WebHacking101,HTTP/HTTP," />
+
+
+
+
+
+  <link rel="alternate" href="/default" title="The Cuttlefish Is Watching You">
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/myPhoto.png?v=1.1" />
+
+
+
+<link rel="canonical" href="https://shermanaters.github.io/2018/10/10/WebHackingReadingNote001/"/>
+
+
+<meta name="description" content="HTTP requests methodsThe methods defined include GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT and OPTIONS. GETThe GET method means to retrieve whatever information is identified by the request Uniform">
+<meta name="keywords" content="WebHacking101,HTTP&#x2F;HTTP">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Web Hacking 101 Reading Note 001">
+<meta property="og:url" content="https://shermanaters.github.io/2018/10/10/WebHackingReadingNote001/index.html">
+<meta property="og:site_name" content="The Cuttlefish Is Watching You">
+<meta property="og:description" content="HTTP requests methodsThe methods defined include GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT and OPTIONS. GETThe GET method means to retrieve whatever information is identified by the request Uniform">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-10-10T03:46:55.670Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Web Hacking 101 Reading Note 001">
+<meta name="twitter:description" content="HTTP requests methodsThe methods defined include GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT and OPTIONS. GETThe GET method means to retrieve whatever information is identified by the request Uniform">
+
+
+<link rel="stylesheet" type="text/css" href="/css/style.css?v=1.1" />
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+
+
+
+
+
+<script type="text/javascript">
+  var themeConfig = {
+    fancybox: {
+      enable: false
+    },
+  };
+</script>
+
+
+
+
+  
+
+
+
+    <title> Web Hacking 101 Reading Note 001 - The Cuttlefish Is Watching You </title>
+  </head>
+
+  <body>
+    <div id="page">
+      <header id="masthead"><div class="site-header-inner">
+    <h1 class="site-title">
+        <a href="/." class="logo">The Cuttlefish Is Watching You</a>
+    </h1>
+
+    <nav id="nav-top">
+        
+            <ul id="menu-top" class="nav-top-items">
+                
+                    <li class="menu-item">
+                        <a href="/archives">
+                            
+                            
+                                Archives
+                            
+                        </a>
+                    </li>
+                
+                    <li class="menu-item">
+                        <a href="/about">
+                            
+                            
+                                About
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        
+  </nav>
+</div>
+
+      </header>
+      <div id="content">
+        
+    <div id="primary">
+        
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">
+        
+          Web Hacking 101 Reading Note 001
+        
+      </h1>
+
+      <time class="post-time">
+          Oct 10 2018
+      </time>
+    </header>
+
+
+
+    
+            <div class="post-content">
+            <h2 id="HTTP-requests-methods"><a href="#HTTP-requests-methods" class="headerlink" title="HTTP requests methods"></a><strong>HTTP requests methods</strong></h2><p>The methods defined include GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT and OPTIONS.</p>
+<h3 id="GET"><a href="#GET" class="headerlink" title="GET"></a><em>GET</em></h3><p>The GET method means to retrieve whatever information is identified by the request Uniform Request Identifier (URI). Typically GET requests should not be associated with any data altering functions, they should just retrieve and provide data.</p>
+<h3 id="HEAD"><a href="#HEAD" class="headerlink" title="HEAD"></a><em>HEAD</em></h3><p>The HEAD method is identical to the GET message except the server must not return a message body in the response. Typically you won’t often see this used but apparently it is often employed for testing hypertext links for validity, accessibility and recent changes.</p>
+<h3 id="POST"><a href="#POST" class="headerlink" title="POST"></a><em>POST</em></h3><p>The POST method is used to invoke some function to be performed by the server, as determined by the server. In other words, Typically there will be some type of back end action performed like creating a comment, registering a user, deleting an account, etc. The action performed by the server in response to the POST can very and doesn’t have to result in action being taken.</p>
+<h3 id="PUT"><a href="#PUT" class="headerlink" title="PUT"></a><em>PUT</em></h3><p>The PUT methods is used when invoking some function but referring to an already existing entity. For example, when updating your account, updating a blog post, etc. Again, the action performed can very and may result in the server taking no action at all.</p>
+<h2 id="DELETE"><a href="#DELETE" class="headerlink" title="DELETE"></a><em>DELETE</em></h2><p>The DELETE method is just as it sounds, it is used to invoke a request for the remote server to delete a resource identified by the URI.</p>
+<h2 id="TRACE"><a href="#TRACE" class="headerlink" title="TRACE"></a><em>TRACE</em></h2><p>The TRACE method is another uncommon method, this time used to reflect back the request message to the requester. This allows the requester to see what is being received by the server and to use that information for testing and diagnostic information.</p>
+<h2 id="CONNECT"><a href="#CONNECT" class="headerlink" title="CONNECT"></a><em>CONNECT</em></h2><p>The CONNECT method is actually reserved for use with proxy (a proxy is basically a server which forwards requests to other servers)</p>
+<h2 id="OPTIONS"><a href="#OPTIONS" class="headerlink" title="OPTIONS"></a><em>OPTIONS</em></h2><p>The OPTIONS method is used to request information from a server about the communication options available. For example, calling for OPTIONS may indicate that the server accepts GET, POST, PUT, DELETE and OPTIONS calls but not HEAD or TRACE.</p>
+
+            </div>
+          
+
+    
+      <footer class="post-footer">
+		
+		<div class="post-tags">
+		  
+			<a href="/tags/WebHacking101/">WebHacking101</a>
+		  
+			<a href="/tags/HTTP-HTTP/">HTTP/HTTP</a>
+		  
+		</div>
+		
+
+        
+        
+  <nav class="post-nav">
+    
+    
+      <a class="next" href="/2018/09/13/hello-world/">
+        <span class="next-text nav-default">Hello World</span>
+        <span class="prev-text nav-mobile">Next</span>
+        <i class="iconfont icon-right"></i>
+      </a>
+    
+  </nav>
+
+        
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+      </footer>
+    
+  </article>
+
+    </div>
+
+      </div>
+
+      <footer id="colophon"><span class="copyright-year">
+    
+        &copy;
+    
+    2018
+    <span class="footer-author">Sherman.</span>
+    <span class="power-by">
+        Powered by <a class="hexo-link" href="https://hexo.io/">Hexo</a> and <a class="theme-link" href="https://github.com/frostfan/hexo-theme-polarbear">Polar Bear</a>
+    </span>
+</span>
+
+      </footer>
+
+      <div class="back-to-top" id="back-to-top">
+        <i class="iconfont icon-up"></i>
+      </div>
+    </div>
+    
+
+
+    
+
+
+
+
+  
+    <script type="text/javascript" src="/lib/jquery/jquery-3.1.1.min.js"></script>
+  
+
+  
+
+    <script type="text/javascript" src="/js/src/theme.js?v=1.1"></script>
+<script type="text/javascript" src="/js/src/bootstrap.js?v=1.1"></script>
+
+  </body>
+</html>
