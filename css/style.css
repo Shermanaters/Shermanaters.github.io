@@ -1062,3 +1062,39 @@ h6 {
 @media only screen and (max-width: 750px) {
   .back-to-top {
     display: none !important; } }
+
+#theme-style {
+  float: right;
+  background-color: #aaa;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%; }
+
+.dark-theme {
+  background-color: #333; }
+  .dark-theme body {
+    background-color: transparent;
+    color: #fefefe; }
+  .dark-theme a {
+    color: #fefefe; }
+  .dark-theme .btn {
+    color: #fefefe; }
+  .dark-theme #nav-top .nav-top-items .menu-item a {
+    color: #fefefe; }
+  .dark-theme .post-content blockquote {
+    color: #fefefe; }
+  .dark-theme .post-footer .post-nav .prev,
+  .dark-theme .post-footer .post-nav .next {
+    color: #fefefe; }
+  .dark-theme #secondary {
+    color: #fefefe; }
+  .dark-theme .widget-area h3 {
+    color: #fefefe; }
+  .dark-theme .widget-area .category-list-item .category-list-link {
+    color: #fefefe; }
+  .dark-theme .widget_tags .tag-list-item {
+    background-color: transparent; }
+    .dark-theme .widget_tags .tag-list-item .tag-list-link {
+      color: #fefefe; }
+  .dark-theme .archive .archive-post .archive-post-title .archive-post-link {
+    color: #fefefe; }
