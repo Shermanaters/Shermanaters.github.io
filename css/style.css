@@ -1098,3 +1098,12 @@ h6 {
       color: #fefefe; }
   .dark-theme .archive .archive-post .archive-post-title .archive-post-link {
     color: #fefefe; }
+  .dark-theme _code.scss
+.highlight table::after {
+    color: #cacaca;
+    background: #708090 !important; }
+  .dark-theme code, .dark-theme pre {
+    background: #636363 !important; }
+  .dark-theme _content
+.post-content a {
+    color: #40E0D0; }
